@@ -3,6 +3,7 @@ import streamlit as st
 
 st.title("☃️ Frosty")
 
+
 # Initialize the chat messages history
 if "messages" not in st.session_state.keys():
     st.session_state.messages = [{"role": "assistant", "content": "How can I help?"}]
